@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./style.css" />
+        <title>Calculator</title>
+    </head>
+    <body>
+        <div class="calc-frame">
+            <div class="display-area">
+                <div class="lower-display">69.420</div>
+            </div>
+            <div class="button-area">
+                <div data-key="46" class="clear"><span>&#67;</span></div>
+                <div data-key="8" class="delete"><span>Del</span></div>
+                <div id="%" class="operate"><span>&#37;</span></div>
+                <div data-key="111" id="/" class="operate">
+                    <span>&#247;</span>
+                </div>
+                <div data-key="103" id="7" class="num"><span>&#55;</span></div>
+                <div data-key="104" id="8" class="num"><span>&#56;</span></div>
+                <div data-key="105" id="9" class="num"><span>&#57;</span></div>
+                <div data-key="106" id="*" class="operate">
+                    <span>&#215;</span>
+                </div>
+                <div data-key="100" id="4" class="num"><span>&#52;</span></div>
+                <div data-key="101" id="5" class="num"><span>&#53;</span></div>
+                <div data-key="102" id="6" class="num"><span>&#54;</span></div>
+                <div data-key="109" id="-" class="operate">
+                    <span>&#8722;</span>
+                </div>
+                <div data-key="97" id="1" class="num"><span>&#49;</span></div>
+                <div data-key="98" id="2" class="num"><span>&#50;</span></div>
+                <div data-key="99" id="3" class="num"><span>&#51;</span></div>
+                <div data-key="107" id="+" class="operate">
+                    <span>&#43;</span>
+                </div>
+                <div
+                    data-key="96"
+                    id="0"
+                    class="num"
+                    style="grid-column: 1/3; width: 90%;"
+                >
+                    <span>&#48;</span>
+                </div>
+                <div data-key="110" id="." class="num"><span>&#46;</span></div>
+                <div data-key="13" class="equals"><span>&#61;</span></div>
+            </div>
+        </div>
+
+        <script src="./calculator.js"></script>
+    </body>
+</html>
